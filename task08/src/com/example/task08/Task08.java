@@ -4,13 +4,17 @@ public class Task08 {
 
     public static boolean solution() {
 
-        double x = Double.MAX_VALUE;
+        double x = 1e16;
         return x == x + 1;
     }
 
     public static void main(String[] args) {
         // Здесь вы можете вручную протестировать ваше решение
         System.out.println(solution());
+        double x = Double.MAX_VALUE;
+        System.out.println(x);
+        System.out.println(x + 1);
+        System.out.println(x == x + 1);
     }
 
 }
