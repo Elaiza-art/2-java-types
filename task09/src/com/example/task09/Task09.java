@@ -7,9 +7,8 @@ public class Task09 {
 
         float a = 1.0f;
         float b = 3.0f;
-        double epsilon = 1.0e-2; // Погрешность 0.01 (так как X ≈ 9.93)
 
-        double x = ((double) a / b - 1.0 / 3.0) * 1.0e9;
+        double x =  (double) a / (double) b - 1.0 / 3.0;
 
         return x;
     }
