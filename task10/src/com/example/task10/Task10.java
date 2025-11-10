@@ -25,13 +25,16 @@ public class Task10 {
         }
 
     public static void main(String[] args) {
-        float a = 0.3f;
+        float a = 1.0f/ 0.0f;
         float b = 0.4f;
         float sum = a + b;
         float c = 0.7f;
+        System.out.println(sum);
+        System.out.println(c);
 
         boolean result = compare(sum, c, 2);
         System.out.println(result);
+
 
     }
 
