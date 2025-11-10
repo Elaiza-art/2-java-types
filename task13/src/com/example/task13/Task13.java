@@ -13,8 +13,11 @@ public class Task13 {
     public static void main(String[] args) {
         // Здесь вы можете вручную протестировать ваше решение, вызывая реализуемый метод и смотря результат
         // например вот так:
-        char result = toUpperCase('x');
+        char result = toUpperCase('a');
+        char result2 = toUpperCase('s');
+
         System.out.println(result);
+        System.out.println(result2);
     }
 
 }
